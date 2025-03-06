@@ -15,7 +15,7 @@ body {
 }
 
 #header { 
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
   
 #main-nav ul {
@@ -42,25 +42,44 @@ body {
 }
   
 #main-nav ul li a:hover {
-    background-color: rgb(138, 138, 245);
+    background-color: rgb(82, 82, 219);
+    color: #fff;
 }
 
-#onpage {
-    background-color: #fff;
-    border: solid;
+#onpage a {
+    background-color: rgb(82, 82, 219);
+    color: #fff !important;
+    text-decoration: underline !important;
 }
 
 #page-wrapper {
     width: 70%;
-    margin: 50px auto;
-}
-
-h1 {
-    text-align: center;
+    margin: 30px auto 60px auto;
 }
 
 #content-wrapper {
     background-color: #fff;
     border-radius: 20px;
-    padding: 20px 50px;
+    padding: 20px 50px 50px 50px;
+}
+
+footer {
+    font-style: italic;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Prompt", sans-serif;
+    font-weight: 600;
+}
+
+h2 {
+    font-family: "Prompt", sans-serif;
+    font-weight: 400;
+}
+
+h3 {
+    font-family: "Prompt", sans-serif;
+    font-weight: 600;
+    font-style: italic;
 }
